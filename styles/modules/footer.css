@@ -6,3 +6,10 @@
     padding: 4.5rem 0;
     gap: 2.25rem;
 }
+
+@media (min-width: 768px) {
+    .footer {
+        justify-content: flex-end;
+        padding: 5.75rem 4.5rem;
+    }
+}
