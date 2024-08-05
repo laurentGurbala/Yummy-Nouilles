@@ -1,6 +1,9 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap');
 
+/* Pages */
+@import 'pages/home.css';
+
 /* Modules */
 @import 'modules/appBar.css';
 
@@ -69,6 +72,10 @@ h2 {
     text-decoration: underline var(--red-highlight);
     text-underline-offset: 0.25rem;
     text-decoration-thickness: 0.19rem;
+}
+
+.color-highlight {
+    color: var(--red-highlight);
 }
 
 @media (min-width: 768px) {
