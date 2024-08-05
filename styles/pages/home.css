@@ -27,3 +27,25 @@
     width: 14.5rem;
     height: 14.5rem;
 }
+
+@media (min-width: 768px) {
+    .hero {
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+        gap: 10.375rem;
+    }
+
+    .hero__subtitle--desktop {
+        display: block;
+    }
+
+    .hero__subtitle--mobile {
+        display: none;
+    }
+
+    .hero__icon {
+        width: 19rem;
+        height: 19rem;
+    }
+}
