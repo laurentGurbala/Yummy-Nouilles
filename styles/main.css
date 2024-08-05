@@ -86,14 +86,14 @@ h2 {
 
     /* Desktop variables */
     :root {
-        --body-font-size: 1.25rrem;
-        --body-highlight-font-size: 1.25rrem;
-        --header-font-size: 4.5rrem;
-        --title-font-size: 1.5rrem;
+        --body-font-size: 1.25rem;
+        --body-highlight-font-size: 1.25rem;
+        --header-font-size: 4.5rem;
+        --title-font-size: 1.5rem;
     
-        --body-line-height: 1.5rrem;
-        --body-highlight-line-height: 1.5rrem;
-        --header-line-height: 5.375rrem;
-        --title-line-height: 1.75rrem;
+        --body-line-height: 1.5rem;
+        --body-highlight-line-height: 1.5rem;
+        --header-line-height: 5.375rem;
+        --title-line-height: 1.75rem;
     }
 }
