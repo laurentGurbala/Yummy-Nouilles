@@ -4,11 +4,17 @@
     align-items: center;
     background-color: var(--red-highlight);
     color: var(--white);
-    padding: 2.75rem;
+    padding: 2.75rem 0;
     margin-bottom: 2rem;
 }
 
 .redBanner__title {
     font-weight: var(--body-hightlight-font-weight);
     margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .redBanner {
+        padding: 3.75rem 0;
+    }
 }
