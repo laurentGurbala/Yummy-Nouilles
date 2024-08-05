@@ -14,3 +14,10 @@ Ce projet consiste en la création d'un site web statique en utilisant uniquemen
 * HTML5 : Pour la structure du site.
 * CSS3 : Pour le style et la mise en page.
 * Flexbox et Grid : Pour la mise en page responsive.
+
+## Démonstration
+vous pouvez voir une démo du site en visitant le lien suivant: https://laurentgurbala.github.io/Yummy-Nouilles/
+
+## Remerciements
+Je tiens à remercier Gabriel Hubert d'openclassrooms pour son cours et les ressources fournies durant ce projet:
+https://openclassrooms.com/fr/courses/8242681-integrez-une-maquette-figma-en-html-css
