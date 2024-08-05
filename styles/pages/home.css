@@ -35,6 +35,7 @@
         justify-content: center;
         text-align: left;
         gap: 10.375rem;
+        margin-bottom: 10rem;
     }
 
     .hero__subtitle--desktop {
@@ -71,4 +72,17 @@
 
 .address__title {
     font-weight: var(--body-highlight-font-weight);
+}
+
+@media (min-width: 768px) {
+    .address__carousel {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 7.125rem;
+    }
+
+    .address__img {
+        width: 19rem;
+        height: 13.5rem;
+        object-fit: cover;
+    }
 }
