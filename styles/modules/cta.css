@@ -2,6 +2,7 @@
     display: inline-block;
     background-color: var(--black);
     color: var(--white);
+    font-family: var(--title-font);
     font-weight: var(--title-font-weight);
     font-size: var(--title-font-size);
     line-height: var(--title-line-height);
