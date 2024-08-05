@@ -99,3 +99,10 @@
 .about__title {
     margin-bottom: 1rem;
 }
+
+@media (min-width: 768px) {
+    .about {
+        padding: 0 9rem;
+        margin-bottom: 4rem;
+    }
+}
