@@ -7,6 +7,7 @@
 /* Modules */
 @import 'modules/appBar.css';
 @import 'modules/cta.css';
+@import 'modules/redBanner.css';
 
 /* Design System */
 :root {

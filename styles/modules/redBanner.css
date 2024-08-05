@@ -1,0 +1,14 @@
+.redBanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--red-highlight);
+    color: var(--white);
+    padding: 2.75rem;
+    margin-bottom: 2rem;
+}
+
+.redBanner__title {
+    font-weight: var(--body-hightlight-font-weight);
+    margin-bottom: 2rem;
+}
