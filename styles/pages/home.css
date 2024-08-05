@@ -76,7 +76,7 @@
 
 @media (min-width: 768px) {
     .address__carousel {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 7.125rem;
     }
 
@@ -84,6 +84,12 @@
         width: 19rem;
         height: 13.5rem;
         object-fit: cover;
+    }
+}
+
+@media (min-width: 1250px) {
+    .address__carousel {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -127,7 +133,13 @@
 
 @media (min-width: 768px) {
     .social-media__carousel {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 4.5rem;
+    }
+}
+
+@media (min-width: 1250px) {
+    .social-media__carousel {
+        grid-template-columns: repeat(3,1fr);
     }
 }
