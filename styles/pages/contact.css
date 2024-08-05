@@ -15,3 +15,14 @@
     grid-template-columns: 1fr;
     gap: 1rem;
 }
+
+@media (min-width: 768px) {
+    .contact__title {
+        margin-top: 5rem;
+    }
+
+    .contact__carousel {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
+}
