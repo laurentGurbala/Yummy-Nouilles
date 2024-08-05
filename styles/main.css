@@ -4,6 +4,7 @@
 /* Pages */
 @import 'pages/home.css';
 @import 'pages/menu.css';
+@import 'pages/contact.css';
 
 /* Modules */
 @import 'modules/appBar.css';
